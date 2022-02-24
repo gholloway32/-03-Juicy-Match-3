@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Grid/grid.gd" type="Script" id=1]
 [ext_resource path="res://Pieces/Piece Background.tscn" type="PackedScene" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Assets/Jellee-Bold.otf" type="DynamicFontData" id=5]
 [ext_resource path="res://Assets/background_game.png" type="Texture" id=6]
 [ext_resource path="res://Assets/noise.tres" type="Texture" id=7]
+[ext_resource path="res://UI/music.gd" type="Script" id=8]
 
 [sub_resource type="VisualShaderNodeScalarFunc" id=10]
 function = 1
@@ -195,3 +196,12 @@ __meta__ = {
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 15 )
+
+[node name="music" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource( 8 )
+
+[node name="1" type="AudioStreamPlayer2D" parent="."]
+
+[node name="2" type="AudioStreamPlayer2D" parent="."]
+
+[node name="3" type="AudioStreamPlayer2D" parent="."]
