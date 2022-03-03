@@ -1,8 +1,8 @@
-# Exercise-03d-Shaders
+# Project 3 Juicy Match 3
 
-Exercise for MSCH-C220
+Match 3 game with features to make it look better and that make the game more entertaning 
 
-Adding several shaders and a WorldEnvironment to a simple match-3 game.
+My juicy features are tiles fall off the screen, when matched the tiles light on fire and spawn coins that fly to the corner while disapering, the background changes color, there is music at the start of the game and the tiles make noise if they are moved and play a diffrent noise when matched together, there is a timer that counts down from 60 and when it hits zero you are taken to a screen that says that you ran out of time and what you score was and lets you quit or play again. If you reach 200 you are taken to a winning screen that says good job you won and asks if you want to play again or quit.
 
 ## To play
 
@@ -22,10 +22,11 @@ Built using Godot 3.4.2
  * [Godot 2D fire shader](https://godotshaders.com/shader/2d-fire/)
  * [Godot Clouds in motion shader](https://godotshaders.com/shader/clouds-in-motion/)
  * [GDQuest Visual Shader Editor in Godot 3.1: Dissolve Shader (tutorial)](https://www.youtube.com/watch?v=sf_Dc4ew3eM)
+ * [Godot Stars shader](https://godotshaders.com/shader/stars-shader/)
 
 ## Future Development
 
-None
+some development in the future 
 
 ## Created by 
 
