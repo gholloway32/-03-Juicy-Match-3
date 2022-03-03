@@ -11,7 +11,7 @@ Select and drag tiles using the mouse.
 
 Built using Godot 3.4.2
 
-My juicy features are tiles fall off the screen, when matched the tiles light on fire and spawn coins that fly to the corner while disapering, the background changes color, there is music at the start of the game and the tiles make noise if they are moved and play a diffrent noise when matched together, there is a timer that counts down from 60 and when it hits zero you are taken to a screen that says that you ran out of time and what you score was and lets you quit or play again. If you reach 200 you are taken to a winning screen that says good job you won and asks if you want to play again or quit.
+My juicy features are tiles fall off the screen, when matched the tiles light on fire and spawn coins that fly to the corner while disappearing, the background changes color, there is music at the start of the game and the tiles make noise when they spawn in,if they are moved, and will play a diffrent noise when matched together, there is a timer that is at the top right of the game screen that counts down from 60 and when it hits zero you are taken to a screen that says that you ran out of time and what you score was and lets you quit or play again. If you reach 200 you are taken to a winning screen that says good job you won and asks if you want to play again or quit.
 
 ## References
  * [Juice it or lose it — a talk by Martin Jonasson & Petri Purho](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
