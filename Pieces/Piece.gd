@@ -61,7 +61,7 @@ func die():
 	if Effects == null:
 		Effects = get_node_or_null("/root/Game/Effects")
 	if Effects != null:
-				var coin = Coin.instance()
+		var coin = Coin.instance()
 		coin.position = target_position
 		Effects.add_child(coin)
 		get_parent().remove_child(self)
